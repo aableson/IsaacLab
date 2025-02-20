@@ -15,7 +15,7 @@ rem Helper functions
 rem extract Isaac Sim directory
 :extract_isaacsim_path
 rem Use the sym-link path to Isaac Sim directory
-set isaac_path=%ISAACLAB_PATH%\_isaac_sim
+rem set isaac_path=%ISAACLAB_PATH%\_isaac_sim
 rem Check if directory exists
 if not exist "%isaac_path%" (
     rem Find the Python executable
